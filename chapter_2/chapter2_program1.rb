@@ -7,4 +7,4 @@ puts "There are #{hours_year} hours in a year, #{minutes_decade} minutes in a de
 
 author_age =  1160000000 / 60 /60 / 24/ 365
 
-puts "If the author is 1,160 seconds old, then he is is #{author_age} years old."
+puts "If the author is 1,160 seconds old, then he is #{author_age} years old."
