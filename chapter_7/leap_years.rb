@@ -19,7 +19,7 @@ while starting_year <= ending_year
     if starting_year % 100 != 0 
       puts "The year #{starting_year} is a leap year"
     else
-      if starting_year % 100 == 0 && starting_year % 400 == 0
+      if starting_year % 400 == 0
         puts "The year #{starting_year} is a leap year"
       end
     end    
