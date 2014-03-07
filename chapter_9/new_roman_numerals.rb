@@ -27,8 +27,8 @@ while true
     c = "C" * ( get_hundreds(num) % 5 )   #  100
     l = "L" * ( get_tens(num) / 5 )       #   50
     x = "X" * ( get_tens(num) % 5 )       #   10
-    v = "V" * ( get_units(num) / 5 )
-    i = "I" * ( get_units(num) % 5)
+    v = "V" * ( get_units(num) / 5 )      #    5
+    i = "I" * ( get_units(num) % 5)       #    1
 
     if get_units(num) == 4
       i = "IV"
